@@ -1,0 +1,85 @@
+/* ============================= */
+/* General Styles                */
+/* ============================= */
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  background-color: #F9F3EF;
+  color: #1B3C53;
+}
+
+/* Navbar */
+nav.navbar {
+  background-color: #1B3C53 !important;
+}
+nav.navbar .nav-link {
+  color: #fff !important;
+}
+nav.navbar .nav-link.active {
+  font-weight: bold;
+  color: #D2C1B6 !important;
+}
+
+/* Top Container */
+top-container {
+  display: block;
+  background-color: #456882;
+  color: #fff;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+top-container h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+top-container p { font-size: 1.2rem; margin-bottom: 0.5rem; }
+top-container img {
+  border: 4px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  margin-top: 1rem;
+}
+
+/* Middle Container / Skills */
+middle-container {
+  display: block;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2rem;
+  margin-top: 2rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+}
+middle-container h2 { color: #1B3C53; margin-bottom: 2rem; }
+
+/* Bottom Container / Footer */
+bottom-container {
+  display: block;
+  background-color: #1B3C53;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+bottom-container .fa {
+  padding: 10px;
+  font-size: 24px;
+  color: #D2C1B6;
+  text-decoration: none;
+}
+bottom-container .fa:hover {
+  color: #456882;
+}
+
+/* Contact Form */
+form .form-control {
+  border: 1px solid #456882;
+}
+form button {
+  background-color: #456882;
+  border: none;
+  color: white;
+}
+form button:hover { background-color: #1B3C53; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  h1 { font-size: 2rem; }
+  top-container p { font-size: 1rem; }
+  middle-container .col-sm-4 { margin-bottom: 2rem; }
+}
